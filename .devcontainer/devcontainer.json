@@ -1,3 +1,13 @@
 {
-  "stuff": "stuf"
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "3.13"
+		}
+	},
+	"remoteUser": "vscode",
+	"extensions": [
+		"ms-azuretools.vscode-docker",
+		"ms-vscode.cpptools"
+	]
 }

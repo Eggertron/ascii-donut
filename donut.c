@@ -1,10 +1,11 @@
 #include <stdio.h>
+//#include <stdlib.h>
 #include <string.h>
 #include <math.h>
 
 int k;
 double sin() ,cos();
-main(){
+main() {
     float A=0, B=0, i, j, z[1760];
     char b[1760];
     printf("\x1b[2J");
@@ -35,9 +36,10 @@ main(){
             }
         }
         printf("\x1b[d");
+        //system("clear");
         for(k=0; 1761>k; k++)
             putchar(k%80?b[k]:10);
-        A+=0.04;
-        B+= 0.02;
+        A += 0.04;
+        B += 0.02;
     }
 }
